@@ -38,7 +38,7 @@ Esta aplicativo foi desenvolvido apenas para aplicar os meus conhecimentos no Mu
   ![Alt Text](https://github.com/gaesilva100/Biblioteca/blob/master/Calculadora%20De%20Bitcon.PNG)
 # Alterações  
  
-- Com a adição de códigos, comentários e classes feitas por mim.
+- A adição de códigos.
 
 
 # Referencias. 
