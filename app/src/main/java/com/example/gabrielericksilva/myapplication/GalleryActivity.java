@@ -9,9 +9,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-/**
- * Created by User on 1/2/2018.
- */
+
 
 public class GalleryActivity extends AppCompatActivity {
 
