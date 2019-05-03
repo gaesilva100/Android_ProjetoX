@@ -30,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
 
         mImageUrls.add("https://img.timesnownews.com/story/1542978652-1518076824-Bitcoin.jpg?d=600x450");
-        mNames.add("Calculadora");
-        mNames1.add("Conversor de R$ para Bitcon em-Kotlin - Anko");
+        mNames.add("Calculadora de Bitcon");
+        mNames1.add("Conversor de R$ para Bitcon Kotlin/Anko");
 
         mImageUrls.add("https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2018/04/06/lista-de-compras-no-papel.jpg");
         mNames.add("Lista de Compras");
-        mNames1.add("Lista em SQLITE - KOTLIN");
+        mNames1.add("Lista em SQLITE - Kotlin/Anko");
 
         mImageUrls.add("https://i.redd.it/qn7f9oqu7o501.jpg");
         mNames.add("Projeto 3");
-        mNames1.add("Projeto 15");
+        mNames1.add("Projeto em construção");
 
        initRecyclerView();
     }

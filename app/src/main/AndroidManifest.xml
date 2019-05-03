@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gabrielericksilva.myapplication">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -18,9 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GalleryActivity"></activity>
-        <activity android:name=".calculadora.Calculadora"></activity>
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".calculadora.Calculadora" />
+        <activity android:name=".lista_compras.CadastroActivity" />
+        <activity android:name=".lista_compras.MenuLista"></activity>
     </application>
-
 
 </manifest>

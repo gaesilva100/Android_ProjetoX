@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.gabrielericksilva.myapplication.calculadora.Calculadora;
+import com.example.gabrielericksilva.myapplication.lista_compras.MenuLista;
 
 import java.util.ArrayList;
 
@@ -72,7 +73,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                         mContext.startActivity(intent);
                         break;
                     case 1:
-                        Toast.makeText(mContext, mImageNames.get(position), Toast.LENGTH_SHORT).show();
+                        Intent intent1 = new Intent(mContext, MenuLista.class);
+                        mContext.startActivity(intent1);
                         Toast.makeText(mContext, "Nada não", Toast.LENGTH_SHORT).show();
                         break;
 
