@@ -63,7 +63,7 @@ class MenuLista : AppCompatActivity() {
             val opc_editar = 0;
             val opc_excluir = 1;
 
-            selector("O que deseja fazer?", opcoes, { dialogInterface, position ->
+            selector("O que deseja fazer?", opcoes) { dialogInterface, position ->
 
 
                 when (position){
@@ -72,6 +72,10 @@ class MenuLista : AppCompatActivity() {
 
                         alert("Editar").show()
                         //toast("Editar")
+                        val item = adapter.getItem(i)
+                        item.nome
+                        item.quantidade
+
                     }
 
                     opc_excluir ->{
@@ -91,7 +95,7 @@ class MenuLista : AppCompatActivity() {
                 }
 
 
-            })
+            }
 
 
 
