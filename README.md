@@ -33,17 +33,23 @@ Esta aplicativo foi desenvolvido apenas para aplicar os meus conhecimentos no Mu
  
  # Calculadora - Bitcon Anko/Api 
  
+ Calculadora de Bitcon, baseada em Anko que realiza a chamada via API.
+ 
  - implementation: "https://www.mercadobitcoin.net/api/BTC/ticker/"
  
   ![Alt Text](https://github.com/gaesilva100/Biblioteca/blob/master/Calculadora%20De%20Bitcon.PNG)
   
   # Lista De compras ANKO
   
+  Lista De compras  Baseada em ANKO.
   
+ ![Alt Text](https://github.com/gaesilva100/Biblioteca/blob/master/Capturar.PNG)
+
+![Alt Text](https://github.com/gaesilva100/Biblioteca/blob/master/d04e8aa3b27f47541.png)
   
 # Alterações  
  
-- A adição de códigos.
+- Relizando a configuração da OPÇÂO Editar da Lista.
 
 
 # Referencias. 
