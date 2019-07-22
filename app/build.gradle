@@ -4,6 +4,9 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+
+
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -46,6 +49,10 @@ dependencies {
 
     //circle imageview
     compile 'de.hdodenhof:circleimageview:2.2.0'
+
+    //nightonke:boommenu
+    compile 'com.nightonke:boommenu:2.1.1'
+
 
 
 }
