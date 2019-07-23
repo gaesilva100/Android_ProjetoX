@@ -5,14 +5,22 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.Toast;
+
+
+import com.nightonke.boommenu.BoomButtons.HamButton;
+import com.nightonke.boommenu.BoomButtons.OnBMClickListener;
+import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.OnBoomListener;
+
+
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "MainActivity";
-
     //vars
+    private static final String TAG = "MainActivity";
     private ArrayList<String> mNames = new ArrayList<>();
     private ArrayList<String> mNames1 = new ArrayList<>();
     private ArrayList<String> mImageUrls = new ArrayList<>();
@@ -24,6 +32,21 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: started.");
 
         initImageBitmaps();
+
+        BoomMenuButton bmb = (BoomMenuButton) findViewById(R.id.bmb);
+        for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
+            //.addBuilder(BuilderManager.getTextOutsideCircleButtonBuilderWithDifferentPieceColor());
+
+
+            HamButton.Builder builder = new HamButton.Builder()
+                    .listener(new OnBMClickListener(){
+                        @Override
+                        public void onBoomButtonClick(int index) {
+                            // When the boom-button corresponding this builder is clicked.
+
+                        }
+                    });
+        }
     }
 
     private void initImageBitmaps(){
@@ -52,6 +75,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
+
+
 }
 
 
